@@ -103,7 +103,7 @@ namespace FQS_Quartic
             Complex[] r0r1 = Quadratic(1, s, z0 + t);
             Complex[] r2r3 = Quadratic(1, -s, z0 - t);
 
-            return new Complex[] { (r0r1[0] - a0).Real, (r0r1[1] - a0).Real, (r2r3[0] - a0).Real, (r2r3[1] - a0).Real };
+            return new Complex[] { (r0r1[0] - a0), (r0r1[1] - a0), (r2r3[0] - a0), (r2r3[1] - a0) };
         }
     }
 }
