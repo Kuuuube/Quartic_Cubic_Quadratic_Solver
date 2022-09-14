@@ -5,7 +5,7 @@ namespace One_Seven_Two_Eight_Quartic
 {
     public interface Quartic
     {
-        //code make based off https://www.1728.org/quartic2.htm and https://www.1728.org/cubic2.htm
+        //code made based off https://www.1728.org/quartic2.htm and https://www.1728.org/cubic2.htm
         public static Complex[] Cubic(Complex a0, Complex b0, Complex c0, Complex d0)
         {
             Complex f = ((3 * c0 / a0) - (Complex.Pow(b0, 2) / Complex.Pow(a0, 2))) / 3;
