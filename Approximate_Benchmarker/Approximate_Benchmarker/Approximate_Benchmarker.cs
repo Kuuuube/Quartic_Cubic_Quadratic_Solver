@@ -74,7 +74,7 @@ namespace Quartic
             watch.Stop();
             Console.WriteLine(description + ":");
             Console.WriteLine(" Time Elapsed {0} ms for {1} repetitions", watch.Elapsed.TotalMilliseconds, repetitions);
-            Console.WriteLine(" Time Elapsed {0} ms on average per repetition", watch.Elapsed.TotalMilliseconds / (double)repetitions);
+            Console.WriteLine(" Time Elapsed {0} μs on average per repetition", (watch.Elapsed.TotalMilliseconds * 1000) / (double)repetitions); 
             return watch.Elapsed.TotalMilliseconds;
         }
     }
