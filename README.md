@@ -1,13 +1,16 @@
 # Quartic Cubic Quadratic Solver
+
 Code snippets for solving Quartic, Cubic, and Quadratic equations.
+
+## Info
 
 One_Seven_Two_Eight is more accurate but slower than FQS.
 
-One_Seven_Two_Eight_Quartic.cs can return all cubic and quartic roots.
+`One_Seven_Two_Eight_Quartic.cs` can return all cubic roots and all quartic roots.
 
-FQS_Quartic.cs can return all quadratic roots, the first cubic root and all quartic roots.
+`FQS_Quartic.cs` can return all quadratic roots, the first cubic root, and all quartic roots.
 
-Approximate Benchmark Results from FQS and One_Seven_Two_Eight:
+## Approximate Benchmark Results
 
 | Algorithm                       | Repetition Count | Total Time | Time Per Repetition | 
 | :------------------------------ | :--------------- | :--------- | ------------------: |
