@@ -4,7 +4,7 @@ Code snippets for solving Quartic, Cubic, and Quadratic equations.
 
 ## Info
 
-One_Seven_Two_Eight is more accurate but slower than FQS.
+One_Seven_Two_Eight is more accurate. FQS is faster.
 
 `One_Seven_Two_Eight_Quartic.cs` can return all cubic roots and all quartic roots.
 
