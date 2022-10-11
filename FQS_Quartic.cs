@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace FQS_Quartic
 {
-    public interface FQS_Quartic_Calcs
+    public class FQS_Quartic_Calcs
     {
         //code translated to c# almost entirely from https://github.com/NKrvavica/fqs/blob/master/fqs.py
         public static Complex[] Quadratic(Complex a0, Complex b0, Complex c0)

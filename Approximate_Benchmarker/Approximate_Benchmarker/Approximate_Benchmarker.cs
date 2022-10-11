@@ -5,7 +5,7 @@ using System.Numerics;
 
 namespace Quartic
 {
-    class Program : FQS_Quartic_Calcs, One_Seven_Two_Eight_Quartic_Calcs
+    class Program
     {
         public static int repetitions = 1000000;
         public static double first_coefficient = 1;
